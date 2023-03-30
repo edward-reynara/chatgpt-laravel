@@ -9,15 +9,7 @@ use Spatie\PdfToText\Pdf;
 class ChatGPTController extends Controller
 {
      public function chatPDF()
-    {
-        // $a =public_path();
-        // return $a; 
-        
-        // $pdf_string = Pdf::getText('novel.pdf');
-
-        // $text = (new Pdf(public_path()))
-        // ->setPdf('novel.pdf')
-        // ->text();
+    {        
         $pdf_string = "PERJUANGAN SANG ANAK DESA
         Aku seorang lelaki yang sudah dewasa, awal perjuanganku adalah ketika aku berpikir
         untuk melanjutkan pendidikanku di bangku SMA, kehidupan keluargaku sangat
@@ -141,23 +133,7 @@ class ChatGPTController extends Controller
         buat kesimpulan dari cerita diatas dalam bahasa indonesia';
 
         $prompt = $pdf_string. "" . $command;
-        // return $prompt;
-        $prompt2 = "Suggest three names for an animal that is a superhero.
-
-        Animal: Cat
-        Names: Captain Sharpclaw, Agent Fluffball, The Incredible Feline
-        Animal: Dog
-        Names: Ruff the Protector, Wonder Canine, Sir Barks-a-Lot
-        Animal: Duck
-        Names:";
-
-        // $result = OpenAI::completions()->create([
-        //     'model' => 'gpt-3.5-turbo',
-        //     'prompt' => $prompt,
-        // ]);
-
-        // // return $result['choices'][0]['text'];
-        // // return $result->choices[0]->text;
+       
         $response = OpenAI::chat()->create([
             'model' => 'gpt-3.5-turbo',
             'messages' => [
@@ -165,23 +141,23 @@ class ChatGPTController extends Controller
             ],
         ]);
         
-        $response->id; // 'chatcmpl-6pMyfj1HF4QXnfvjtfzvufZSQq6Eq'
-        $response->object; // 'chat.completion'
-        $response->created; // 1677701073
-        $response->model; // 'gpt-3.5-turbo-0301'
+        // $response->id; // 'chatcmpl-6pMyfj1HF4QXnfvjtfzvufZSQq6Eq'
+        // $response->object; // 'chat.completion'
+        // $response->created; // 1677701073
+        // $response->model; // 'gpt-3.5-turbo-0301'
         
-        foreach ($response->choices as $result) {
-            $result->index; // 0
-            $result->message->role; // 'assistant'
-            $result->message->content; // '\n\nHello there! How can I assist you today?'
-            $result->finishReason; // 'stop'
-        }
+        // foreach ($response->choices as $result) {
+        //     $result->index; // 0
+        //     $result->message->role; // 'assistant'
+        //     $result->message->content; // '\n\nHello there! How can I assist you today?'
+        //     $result->finishReason; // 'stop'
+        // }
         
-        $response->usage->promptTokens; // 9,
-        $response->usage->completionTokens; // 12,
-        $response->usage->totalTokens; // 21
+        // $response->usage->promptTokens; // 9,
+        // $response->usage->completionTokens; // 12,
+        // $response->usage->totalTokens; // 21
         
-        $response->toArray(); // ['id' => 'chatcmpl-6pMyfj1HF4QXnfvjtfzvufZSQq6Eq', ...]
+        // $response->toArray(); // ['id' => 'chatcmpl-6pMyfj1HF4QXnfvjtfzvufZSQq6Eq', ...]
 
         $data = $response->toArray();
 
