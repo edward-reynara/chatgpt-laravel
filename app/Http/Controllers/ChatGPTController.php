@@ -18,139 +18,190 @@ class ChatGPTController extends Controller
         // ->setPdf('novel.pdf')
         // ->text();
         
-        $pdf_string = "PERJUANGAN SANG ANAK DESA
-        Aku seorang lelaki yang sudah dewasa, awal perjuanganku adalah ketika aku berpikir
-        untuk melanjutkan pendidikanku di bangku SMA, kehidupan keluargaku sangat
-        sederhana hal ini yang membuatku untuk berjuang bangkit dari kesederhanaan itu agar
-        nantinya melalui perjuangan ini, akan menjadi salah satu kebanggaan besar dari keluargaku.
-        Berpikir sekolah kadang menjadi sebuah pergumulan besar, hingga suatu waktu,
-        kedatangan mama kecilku membawa cahaya baru bagi anganku.
-        Dibangku SMA aku dibiayai oleh mama kecilku, sehingga menjadi sebuah rutinitas
-        tak kenal waktu, keseharianku kulimpahkan untuk membantunya. Mungkin dengan cara
-        sedehana ini yang akan membangkitkan semangatnya untuk terus membiayaiku bersekolah
-        Ketika pulang dari sekolah, aku harus bekerja di tempat usaha mama kecilku, sebuah
-        toko kecil berisikan keperluan sehari-hari, hingga sore barulah aku diijinkan untuk kembali
-        ke rumah. Hal itu aku lakukan setiap hari sejak aku dibangku SMA.
-        Tak ada masa bagiku untuk duduk nongkrong seperti anak-anak seusiaku, berkumpul
-        dengan teman sebaya, bercerita, berjalan-jalan, berbagi pengalaman, ataupun hal hal apa saja
-        yang berkaitan dengan laki-laki seusiaku. Tempatku hanyalah sebuah toko kecil, sering
-        berbicara dengan harga, melayani pelanggan yang kadang membosankan, terigu, beras,
-        mantega, dan masih banyak lainnya yang menjadi sahabat curhatku. Tak ada pilihan lain
-        karna jika tidak demikian maka impianku untuk bersekolah bisa sirna.
-        Berbicara cinta memang semua orang pasti memiliki kisahnya masing-masing,
-        akupun memilikinya. Kisah cintaku dimulai ketika aku beranjak kuliah, memang waktu
-        masih SMA aku pernah mencintai seorang perempuan cantik di desaku, seorang perempuan
-        manis, wajah yang ayu diselimuti dengan senyuman yang indah, rambutnya terurai di bawah
-        pundaknya membuat kecantikannya semakin sempurna. Komunikasi kami tak seperti yang
-        sering anak anak seusiaku lakukan, berjakan bersama, bergandengan tangan, makan bersama
-        di kantin sekolah, ditraktir ataupun mentraktir dan masih banyak lainnya. Sebuah alat
-        komunikasi kecil yang aku pegang itulah yang menjadi sarana percintaan kami, berbagi pesan
-        via alat komunikasi itu sudahlah cukup untuk mengubur rasa cintaku, membaca balasannya
-        sudah menjadi kebahagiaan besarku, belum lagi jika mendengar suaranya, seakan aku sedang
-        diterbangkan dalam rindu, dan bertemu di awan-awan, memang lembut suaranya ketika
-        berbicara membawa suasana cinta itu terasa, dan bahagia bisa dinikmati.
-        Dia bersekolah pula di sekolahku, namun untuk bertemu seakan ada tembok besar
-        yang menutupi langkahku, karna memang aku tak bisa berkata-kata jika bertemu, seperti
-        biasa yang kuberi hanyalah senyuman khasku, dan itu sudah menjadi bahagiaku. Yahhh,
-        bahagia terbesarku saling berbalas senyum.
-        Waktu berlalu begitu cepat, penghujung impianku sudah nampak, mungkin ini akan
-        menjadi sebuah kisah yang tak akan aku lupakan. Melepaskan cinta untuk mencari
-        kebahagiaan, karena aku sadar jika untuk melanjutkan pendidikan yang lebih tinggi akan
-        terasa susah bagiku, sedangkan dia, dia masih memiliki impian yang harus diraih, kerelaan ini
-        haruslah menjadi pilihan bagiku dan bagi kebahagiaan bersama. Memang cinta tak selamanya
-        harus menyatu. Sejak aku mendengar kelulusanku, pikiranku sudah mulai hadir untuk pergi
-        jauh mencari kehidupan yang lebih layak. Seperti merantau mungkin itu kata kerennya.
-        Pertemuan terakhirku di sudut kelas itu, tempat yang biasanya kami berpapasan
-        dengan senyuman, ketika senyuman saling menyapa memberi keindahan tersendiri. Dan kali
-        ini tempat itulah yang akan menjadi saksi pula bahwa senyum itu akan berakhir dan mungkin
-        untuk selamanya.
-        Kudekati dia dan kucoba untuk lebih dahulu membuka percakapan, “kita sudah
-        megakhiri perjuangan setelah tiga tahun” sebuah perjuangan yang panjang, lanjutku. Dan
-        hari ini, aku ingin memberikan sebuah kalimat yang memang akut tak ingin katakana, namun
-        harus aku katakan karena memang kita memiliki perbedaan. Aku akan pergi dan mungkin tak
-        bisa untuk kembali lagi, aku ingin pergi mencari kehidupan yang lebih layak, ukan untuk
-        melanjutkan kuliah, tapi mingkin untuk kerja, walau belum aku tahu apa yang akan aku
-        kerjakan kelak. Tak seberapa yang aku ucapkan, terasa suara ini semkin tak bisa untuk aku
-        berkata lagi, terlinang air mata di pipinya yang indah itu, sambil tertunduk entah apa yang ia
-        pikirkan, mungkin kesedihan mendalam ketika aku mengungkapkankata perpisahan, atau
-        mungkin ia berpikir jika kepergianku akan membawa duka yang mendalam di batinnya.
-        Aku memang tak bisa untuk tidak mengungkapkan akan hal ini, karena bagiku, tak
-        bisa untuk terus bertahan jika yang aku rasakan adalah hidup dibawah kekurangan dan
-        kesederhanaan, bagaimana aku bisa membahagiakannya kelak? . Masa depannya masih
-        sangat panjang, dan mungkin aku lelaki yang tak pantas untuk dicintai oleh dia yang
-        memiliki segalanya. Hal hal inilah yang membuatku untuk secepatnya mengungkapkan apa
-        yang telah aku pikirkan sebelumnya.
-        Beberapa bulan kemudian sejak pertemuan itu, aku berusaha untuk melupakan dia,
-        melupakan cinta ini, dan segala yang berkaitan dengan rindu dan harapan. Dan terakhir aku
-        mendengarnya, dia telah pergi jauh untuk melanjutkan akan pendidikannnya.
-        Akupun telah pergi jauh untuk mencari kehidupan. Sebuah lembaran baru dalam
-        kehidupanku mulai ku ukirkan. Namun, tak seperti yang aku harapkan, tak seperti yang aku
-        pikirkan, kejenuhan demi kejenuhan mulai aku rasakan, semenjak hari pertama aku
-        menginjakan kaki di tanah rantauan, hingga disuatu hari aku berpikir untuk kembali. Tak
-        sampai setengah tahun aku berada di tanah rantauan akhirnya kuputuskan untuk
-        menghubungi orang tuaku. Dan dengan cepat urangtuaku mengirimkanku ongkos untuk
-        emninggalkan tanah rantauan. Memang kasih sayang sosok orangtua tak pernah lepas dari
-        diriku. Gambaran penuh kesabaran dari mereka membuatku harus lebih berpikir untuk
-        membahagiakan mereka.
-        Semenjak kepulanganku, beberapa bulan aku berada di kampung halamanku, kembali
-        aku bekerja di tempat yang menampungku untuk bersekolah waktu itu.
-        Sambil memikirkan apa yang akan aku lakukan kedeapan, setiap sore ketika aku
-        kembali ddari tempat kerjaku, selalu orangtuaku menasihati saya untuk melanjutkan
-        pendidikan saya, ada beberapa hal yang aku inginkan ketika nantinya harus berkulia, memilih
-        jurusan yagn aku inginkan, dan memilih jurusan yang orangtua inginkan,
-        Dua pilihan yang membuatku untuk berpikir dan mengambil keputusan. Orantuaku
-        menginginkanku untuk memilih jurusan yang nantinya bisa cepat kerja, dan hal itu memang
-        diambil orangtuaku karena mungkin mereka berpikir bahwa aku harus menjadi pribadi yang
-        nantina membanggakan keluarkaku kelak. Dikampungku, berpikir menjadi guru memang
-        suatu hal yang sangat diidam-idamkan oleh hamper seluruh masyarakat desa, mungkin bagi
-        mereka sebuah pekerjaan yang sangat mulia, atau entah apa yang mereka pikirkan.
-        Dan akhirnya aku memutuskan untuk mengikuti apa yang dikatakan oleh orangtuaku,
-        berbekal ijasah SMA aku mencoba meninggalkan keharmonisan keluargaku untuk pergi jauh
-        meneruskan pendidikanku. Di kota provinsi tempat yang paling tepat untuk melanjutkan
-        pendidikanku. Karena memang hanya ada di kotalah pendidikan bisa untuk didapati.
-        Perbincangan malam terakhir di kampungku membuahkan hasil. Melanjutkan pendidikan
-        mungkin hal yang tepat untuk mengangkat derajat keluargaku. Sehingga tak ada pilihan lain
-        yaa,,,, memang tak ada pilihan lain.
-        Hari berlalu begitu cepat beberapa minggu kemudian sejak pertemuan malam itu
-        akhirnya aku harus bertolak ke kota provinsi. Rasanya tak ingin berpisah dengan keluarga
-        kecilku yang telah membesarkan aku dengan penuh sabar, namun disamping itu, aku juga
-        berpikir jika ada beban keluarga yang aku pikul saat ini, penguatan dan pesan malam itu
-        membuat aku semakin yakin untuk melanjutkan perjuangan ini dengan lebih giat lagi.
-        Hari ini, matahari begitu menyengat ketika menyentuh ubun-ubunku padahal waktu
-        masih menunjukan pukul Sembilan lewat beberapa menit. Jelang beberapa saat, aku akan
-        meninggalkan tempat kelahiranku, ayah dan beberapa kakakku sudah sibung mengurus
-        keberangkatanku, disamping kesibukan mereka, masih saja mereka menyisipkan pesan-pesan
-        pendek padaku. Sebuah kover kecil dan beberapa gardus menumpuk di depan rumahku, tas
-        kecil yang akan menempel di pundakku diisi dengan bekal perjalanan. Mungkin mereka buat
-        agar ketika dalam perjalanan dan perutku meminta untuk diisi,tak perlu aku membuang uang
-        untuk membeli lagi.
-        Ibuku masih duduk di pojok rumah sejak pagi tadi. Mungkin apa yang ia sedang
-        pikirkan, tapi aku tak ingin mengganggunya, pikirku waktu keberangkatan barulah aku
-        mendekat dan meminta pamit sekaligus bingkisan doa darinya. Kulirik dibalik kain pintu,
-        ibuku sedang menatap jauh. Sesekali tangan kanannya menyapu keningnya, “ahh ibuku
-        menangis lagi” pikirku. “bagaimana aku harus pergi, karna bagiku, hal hal seperti ini akan
-        membuat langkah kakiku terasa berat uttuk meninggalkan halaman rumah ini.
-        Ibu, aku tak bisa melangkah keluar jika kesedihan masih aku lihat, aku segera
-        bergegas menuju kamarku dan langsung duduk di pinggir kasurku dan meneteskan air mata.
-        Namun aku tak ingin mereka melihatku bersedih.. jelang beberapa menit suara meanggilku
-        dari depan rumah.";
+        $pdf_string = "PANGERAN PANDE GELANG DAN PUTRI CADASARI
+        Asal cerita : Kabupaten Pandeglang, Banten
+        Alkisah, di daerah Banten,
+        ada seorang putri raja
+        bernama Putri Arum.
+        Wajahnya cantik nan
+        rupawan. Kulit dan hatinya
+        lembut selembut sutra. Tidak
+        mengherankan jika banyak
+        pangeran yang ingin
+        menjadikannya sebagai
+        permaisuri. Dari sekian
+        banyak pangeran, tersebutlah dua orang pangeran yang ingin menjalin kasih
+        dengan sang putri. Kedua pangeran tersebut adalah Pangeran Sae Bagus Lana
+        dan Pangeran Cunihin. Mereka teman seperguruan, namun memiliki sifat yang
+        berbeda. Sesuai dengan nama mereka, kata Sae Bagus Lana dalam bahasa
+        Sunda berarti laki-laki yang baik hati, sedangkan Cunihin berarti laki-laki
+        yang suka menggoda wanita. Mengetahui perawakan kedua pangeran
+        tersebut, maka Putri Arum memilih Pangeran Sae Bagus Lana sebagai
+        kekasihnya.
+        Rupanya, Pangeran Cunihin tidak rela menerima kenyataan tersebut. Secara
+        diam-diam, ia iri hati dan dendam terhadap Pangeran Sae Bagus Lana
+        sehingga timbullah niatnya untuk mencuri ilmu dan kesaktian Pangeran Sae
+        Bagus Lana agar dapat merebut Putri Arum. Alhasil, Pangeran Cunihin
+        berhasil melaksanakan niatnya. Dengan kesaktian tersebut, ia kemudian
+        mengubah wajah Pangeran Sae Bagus Lana menjadi seorang tua dan berkulit
+        hitam legam.
+        Sementara itu, Pangeran Sae Bagus Lana yang sudah tidak berdaya datang
+        menghadap kepada gurunya untuk meminta petunjuk. Ia pun disarankan oleh
+        gurunya untuk membuat sebuah gelang besar yang bisa dilewati manusia.
+        Gelang itulah yang dapat mengalahkan Pangeran Cunihin. Jika Pangeran
+        Cunihin melewati gelang tersebut maka seluruh kesaktiannya akan lenyap dan
+        kembali kepada Pangeran Sae Bagus.
+        Setelah mendengar nasehat sang guru, Pangeran Sae Bagus Lana pergi ke
+        sebuah kampung untuk menjadi seorang pembuat gelang atau “pande gelang”
+        tanpa sepengetahuan Putri Arum. Sejak itulah, ia pun dipanggil dengan nama
+        Pande Gelang. Penduduk setempat akrab memanggilnya Ki Pande.
+        16
+        Suatu hari, ketika melintas di Bukit Manggis, Pande Gelang melihat seorang
+        gadis cantik duduk termenung seorang diri. Rupanya, gadis itu tidak asing
+        lagi baginya. Ia adalah Putri Arum yang sedang bersedih karena tidak ingin
+        menikah dengan Pangeran Cunihin yang terkenal kejam dan bengis itu.
+        Meskipun ia tahu kalau gadis itu kekasihnya, Pangeran Sae Bagus Lana tidak
+        ingin membongkar penyamarannya agar sang kekasih tidak bertambah sedih.
+        “Sampurasun!” sapa Pande Gelang.
+        “Ra… rampes,” jawab sang putri dengan terkejut.
+        “Maaf jika hamba telah mengejutkan Tuan Putri,” kata Pande Gelang seraya
+        memberi hormat.
+        Sang putri tidak segera menjawab. Ia hanya terpaku mengamati lelaki yang
+        belum dikenalnya itu. Meskipun wajah lelaki yang berkulit legam itu tampak
+        kusam, sang putri yakin bahwa orang itu berwatak baik. Ia mengumpamakan
+        lelaki itu bagaikan buah manggis, walaupun hitam dan pahit kulitnya tetapi
+        putih dan manis buahnya. Dengan keyakinan itu, sang putri tidak segan untuk
+        menjawab sapaan lelaki setengah baya itu.
+        “Maaf, Aki siapa dan berasal dari mana?” tanya sang putri.
+        “Nama hamba Pande Gelang. Orang-orang memanggil hamba Ki Pande,”
+        jawab lelaki itu. “Maaf Tuan Putri. Sekiranya hamba boleh tahu mengapa
+        Tuan Putri tampak gundah gulana?” tanyanya.
+        Sang putri kembali terdiam sambil meneteskan air mata. Ia ingin
+        menceritakan kegundaan hatinya, namun sungguh berat untuk
+        mengungkapkannya. Sang putri merasa bahwa tidak ada gunanya
+        menceritakan masalah kepada orang lain karena tak seorang pun yang dapat
+        membantunya.
+        “Oh, maaf jika pertanyaan hamba tadi telah menyinggung perasaan Tuan
+        Putri”, ucap Ki Pande seraya hendak berlalu.
+        Ketika Pande Gelang akan meninggalkan tempat itu, sang putri mencegah
+        langkahnya.
+        “Tunggu, jangan pergi dulu Ki!” cegah Putri Arum. “Baiklah, Ki. Saya akan
+        bercerita, tetapi sekadar untuk mengilangkan rasa penasaran Ki Pande.
+        Selama ini saya tidak pernah menceritakan masalah ini kepada orang lain
+        karena hanya akan sia-sia belaka,” kata sang putri.
+        17
+        “Mengapa Tuan Putri berkata demikian?” tanya Pande Gelang.
+        “Masalah yang saya hadapi saat ini sangat berat Ki,” ungkap sang putri.
+        Putri Arum kemudian bercerita bahwa dirinya sedang mendapat tekanan dari
+        Pangeran Cunihin.
+        “Saya sangat sedih Ki, karena Pangeran Cunihin memaksa saya untuk
+        menjadi istrinya. Meskipun ia tampan, tetapi saya tidak menyukai wataknya
+        yang bengis dan kejam. Namun, saya tidak berdaya untuk menghadapinya
+        karena ia sangat berkuasa dan sakti mandraguna,” ungkap Putri Arum.
+        Sejenak Pande Gelang tertegun. Hatinya sangat geram mendengar sikap dan
+        perilaku Pangeran Cunihin yang semakin menjadi-jadi. Ia tidak sabar lagi
+        ingin menghajar pangeran bengis itu. Meski demikian, ia tetap berusaha
+        menyembunyikan amarah dan mencoba untuk menenangkan hati kekasihnya
+        itu.
+        “Hamba turut bersedih, Tuan Putri,” ucap Pande Gelang berlinang air mata.
+        “Terima kasih Ki atas keprihatinannya. Tadinya saya mengira wangsit yang
+        saya terima benar adanya,” ungkap Putri Arum.
+        “Maaf, Tuan Putri. Wangsit apa yang Tuan Putri maksud?” tanya Pande
+        Gelang.
+        “Menurut wangsit yang saya terima melalui mimpi bahwa saya harus
+        menenangkan diri di bukit ini. Kelak akan ada seorang pengeran yang baik
+        hati dan sakti mandraguna yang datang menolong saya. Namun, harapan itu
+        hampir sirna. Sudah sekian lama saya menanti kedatangan dewa penolong itu
+        namun tak kunjung tiba. Padahal, tiga hari lagi Pangeran Cunihin akan
+        datang untuk memaksa saya menikah dengannya,” keluh Putri Arum.
+        Pande Gelang kembali tertegun. Ia menyadari bahwa dewa penolong yang
+        dimaksud sang putri adalah dirinya.
+        “Maaf, Tuan Putri. Kalau boleh hamba menyarankan, sebaiknya Tuan Putri
+        mau menerima keinginan Pangeran Cunihin itu,” ujar Pande Gelang.
+        Mulanya sang putri menolak saran itu karena bagaimana mungkin ia bisa
+        menikah dengan Pangeran Cunihin yang sangat dibencinya itu. Namun,
+        setelah lelaki itu menjelaskan bahwa sang putri tidak menerimanya begitu
+        saja tetapi dengan syarat yang berat, akhirnya sang putri mau menerima
+        saran itu. Syarat tersebut adalah Pangeran Cunihin harus melubangi batu
+        18
+        keramat hingga bisa dilalui manusia. Selain itu, batu keramat itu harus
+        diletakkan di sekitar pantai sebelum dilubangi. Untuk menyelesaikan
+        pekerjaan tersebut memerlukan waktu tiga hari. Dengan demikian, tentu saja
+        setengah dari kesaktian Pangeran Cunihin akan hilang.
+        “Lalu, bagaimana selanjutnya Ki?” tanya Putri Arum setelah mendengar
+        pejelasan itu.
+        “Tuan Putri tidak usah khawatir. Urusan selanjutnya serahkan kepada
+        hamba,” ujar Pande Gelang.
+        Mendengar seluruh penjelasan Pande Gelang, maka semakin yakinlah sang
+        putri untuk menerima saran tersebut. Setelah itu, Pande Gelang kemudian
+        mengajak Putri Arum ke tempat tinggalnya untuk mengatur siasat.
+        Perjalanan menuju ke tempat tinggal Pande Gelang ternyata cukup jauh dan
+        melelahkan sehingga membuat Putri Arum jatuh pingsan di atas sebuah batu
+        cadas saat akan tiba di kampung Pande Gelang. Mengetahui hal itu,
+        penduduk kampung segera membantu Pande Gelang membawa Putri Arum ke
+        salah satu rumah penduduk yang terdekat. Mereka pun merawat sang putri
+        dengan penuh kasih sayang. Menurut tetua kampung, sang putri akan segera
+        pulih jika ia meminum air gunung yang memancar melalui batu cadas itu.
+        Alhasil, setelah meminum air dari batu cadas tersebut, Putri Arum kembali
+        sehat. Sejak itulah, penduduk kampung memanggil Putri Arum dengan
+        sebutan Putri Cadasari. Setelah itu, sang putri segera mengatur siasat
+        bersama Pande Gelang untuk mengelabui Pengeran Cunihin.
+        Keesokan harinya, Putri Cadasari kembali ke istana dengan diantar oleh
+        beberapa penduduk kampung. Sementara itu, Pande Gelang sibuk membuat
+        sebuah gelang besar untuk dikalungkan pada batu keramat.
+        Pada hari yang telah ditentukan, datanglah Pangeran Cunihin mengajak Putri
+        Arum untuk menikah dengannya. Putri Arum pun mengajukan syarat
+        sebagaimana yang disarankan oleh Pande Gelang.
+        “Kamu boleh menikahiku, tapi dengan satu syarat kamu harus membawa
+        batu cadas ke pantai lalu melubanginya,” jelas Putri Arum.
+        “Ha, sungguh mudah syaratmu itu Tuan Putri. Tapi, apa maksud dari
+        syaratmu itu?” tanya Pangeran Cunihin.
+        “Batu keramat itu untuk bulan madu kita Pangeran. Kita bisa duduk di atas
+        batu itu sambil menikmati indahnya pemandangan laut. Bukankah itu sangat
+        menyenangkan Pangeran?” jelas Putri Cadasari.
+        
+        itu, tiba-tiba seluruh tubuhnya merasakan sakit yang luar biasa. Ia pun
+        berteriak keras karena tidak kuat lagi menahan rasa sakit. Begitu ia selesai
+        melewati lubang itu, seluruh kekuatannya hilang sehingga ia hanya bisa
+        duduk lemas tak berdaya. Beberapa saat kemudian, ia pun berubah menjadi
+        seorang tua renta seolah telah melewati lorong waktu yang begitu panjang.
+        Pada saat yang bersamaan, Pande Gelang merasakan kekuatan yang luar
+        biasa mengalir masuk ke dalam tubuhnya. Akhirnya, seluruh ilmu dan
+        kesaktiannya kembali seperti semula. Wajahnya pun kembali seperti
+        sediakala, yaitu wajah seorang pangeran yang tampan.
+        Putri Cadasari seolah-olah tidak percaya menyaksikan peristiwa ajaib itu. Ia
+        baru sadar bahwa ternyata lelaki paruh baya yang telah menolongnya itu
+        adalah kekasihnya sendiri, Pangeran Sae Bagus Lana.
+        “Akang, bagaimana semua ini bisa terjadi?” tanya Putri Cadasari dengan
+        heran.
+        Pangeran Pande Gelang pun menceritakan semua kejadian yang dialaminya
+        mulai dari peristiwa Pangeran Cunihin mencuri kesaktiannya hingga peristiwa
+        ajaib itu terjadi. Mendengar cerita itu, barulah sang putri sadar bahwa
+        wangsit yang ia terima memang benar adanya. Akhirnya, mereka pun
+        meninggalkan batu keramat itu. Beberapa waktu kemudian, mereka menikah
+        dan hidup bahagia.";
         
         $command = '
         
+       
         
         buat kesimpulan dari cerita diatas dalam bahasa indonesia';
 
         $prompt = $pdf_string . $command;
-       
+        $prompt2 = "Pangeran Pandegelang dan Putri Cadasari adalah sebuah cerita yang berasal dari Kabupaten Pandeglang, Banten. Cerita ini menceritakan tentang dua pangeran yang ingin menikahi Putri Arum, namun hanya Pangeran Sae Bagus Lana yang dipilih oleh sang putri. Pangeran Cunihin, yang tidak rela, akhirnya mencuri ilmu dan kesaktian Pangeran Sae Bagus Lana untuk merebut sang putri. \n\nDalam keputusasaannya, Pangeran Sae Bagus Lana meminta petunjuk dari gurunya dan membuat sebuah gelang besar yang bisa dilewati manusia. Gelang tersebut bisa mengalahkan Pangeran Cunihin jika melewati batasannya, sehingga kesaktiannya akan hilang. Pangeran Sae Bagus Lana kemudian pergi ke sebuah kampung dan menjadi \"pande gelang\" tanpa sepengetahuan Putri Arum. \n\nSuatu hari sang putri bertemu dengan Pande Gelang dan menceritakan masalahnya dengan Pangeran Cunihin. Pande Gelang memberikan saran agar Putri Arum menerima syarat Pangeran Cunihin, yaitu untuk membuat lubang pada batu cadas keramat yang hanya bisa dilewati orang. Setengah dari kesaktian Pangeran Cunihin akan hilang jika syarat itu terpenuhi. \n\nAkhirnya, Pangeran Cunihin menyetujui syarat Putri Arum karena merasa itu sangat mudah. Namun saat melewati lubang pada batu keramat itu, kesaktiannya lenyap dan ia berubah menjadi seorang tua. Sementara itu, Pande Gelang mendapatkan kembali kesaktiannya. Putri Cadasari pun menyadari bahwa Pande Gelang adalah Pangeran Sae Bagus Lana, kekasihnya. Mereka menikah dan hidup bahagia.\n\nKisah ini mengajarkan kita untuk selalu menjaga hati kita dari rasa iri dan dendam, serta untuk selalu berjuang untuk mendapat cinta yang sejati. Selain itu, cerita ini juga mengajarkan bahwa kebaikan dan usaha yang tulus akan selalu mendapat imbalan yang setimpal";
+        $prompt3 = "translate to english";
+
         // $response = OpenAI::completions()->create([
         //     'model' => 'text-davinci-003',
         //     'prompt' => $prompt,
         // ]);
-
+        
         $response = OpenAI::chat()->create([
             'model' => 'gpt-3.5-turbo',
             'messages' => [
                 ['role' => 'user', 'content' => $prompt],
+                // ['role' => 'assistant', 'content' => $prompt2],
+                // ['role' => 'user', 'content' => $prompt3],
             ],
         ]);
         
@@ -172,7 +223,7 @@ class ChatGPTController extends Controller
         
         // $response->toArray(); // ['id' => 'chatcmpl-6pMyfj1HF4QXnfvjtfzvufZSQq6Eq', ...]
 
-        // $result = $response->toArray();
+        $result = $response->toArray();
         $result = $response['choices'][0]['message']['content'];
         
         // $result = $response['choices'][0]['text'];

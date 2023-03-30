@@ -3,8 +3,9 @@ api chatgpt4 rangkum buku/novel, pdf
 https://github.com/openai-php/client
 https://github.com/openai-php/laravel
 https://chat.openai.com/
+
 https://platform.openai.com/docs/api-reference/introduction
-https://platform.openai.com/docs/quickstart/build-your-application
+https://platform.openai.com/docs/quickstart/build-your-application //API KEY
 https://platform.openai.com/docs/guides/chat
 
 #pricing
@@ -29,3 +30,62 @@ Davinci	$0.0300 / 1K tokens	$0.1200 / 1K tokens
 
 --- 6 page novel resp
 OpenAI\Exceptions\ErrorException: This model&#039;s maximum context length is 4097 tokens, however you requested 8026 tokens (8010 in your prompt; 16 for the completion). Please reduce your prompt; or completion length. in file C:\Users\believe\Documents\GitHub\chatgpt\vendor\openai-php\client\src\Transporters\HttpTransporter.php on line 66
+
+-- resp
+"finish_reason": "length"
+"prompt_tokens": 4011,
+"completion_tokens": 86,
+"total_tokens": 4097
+because max length is 4097
+
+{
+    "id": "chatcmpl-6zgpreQrPVyrr6WX4BAHatX1bqXOR",
+    "object": "chat.completion",
+    "created": 1680160687,
+    "model": "gpt-3.5-turbo-0301",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "Kisah Pangeran Pande Gelang dan Putri Cadasari berasal dari daerah Banten. Putri Arum adalah seorang putri raja yang sangat cantik dan memiliki banyak pangeran pengagum. Meski begitu, ia memilih Pangeran Sae Bagus Lana sebagai kekasihnya. Namun, Pangeran Cunihin yang iri hat"
+            },
+            "finish_reason": "length"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 4011,
+        "completion_tokens": 86,
+        "total_tokens": 4097
+    }
+}
+
+--resp 2 chat
+'model' => 'gpt-3.5-turbo',
+'messages' => [
+    ['role' => 'user', 'content' => $prompt],
+    ['role' => 'assistant', 'content' => $prompt2],
+    ['role' => 'user', 'content' => $prompt3],
+],
+
+{
+    "id": "chatcmpl-6zhiVyhN7e7NL4U153NSkKpSD70EV",
+    "object": "chat.completion",
+    "created": 1680164075,
+    "model": "gpt-3.5-turbo-0301",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "Pangeran Pandegelang and Princess Cadasari is a story that originates from Pandeglang Regency, Banten. The story tells of two princes who want to marry Princess Arum, but only Prince Sae Bagus Lana is chosen by the princess. Prince Cunihin, who is reluctant, eventually steals Prince Sae Bagus Lana's knowledge and power to claim the princess for himself.\n\nIn his desperation, Prince Sae Bagus Lana seeks guidance from his teacher and creates a large bracelet that can be crossed by humans. The bracelet can defeat Prince Cunihin if he crosses its limits, causing his powers to disappear. Prince Sae Bagus Lana then goes to a village and becomes a \"gelang maker\" without Princess Arum's knowledge.\n\nOne day, the princess meets Pande Gelang and tells him about her problem with Prince Cunihin. Pande Gelang gives advice for Princess Arum to accept Prince Cunihin's condition, to make a hole in the holy stone that only humans can cross. Half of Prince Cunihin's powers will disappear if the condition is met.\n\nFinally, Prince Cunihin agrees to Princess Arum's terms, thinking it is easy. But when he crosses the hole in the holy stone, his powers disappear, and he turns into an"
+            },
+            "finish_reason": "length"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 3825,
+        "completion_tokens": 272,
+        "total_tokens": 4097
+    }
+}
