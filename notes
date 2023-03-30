@@ -1,0 +1,30 @@
+#laravel chatgpt
+api chatgpt4 rangkum buku/novel, pdf
+https://github.com/openai-php/client
+https://github.com/openai-php/laravel
+https://platform.openai.com/docs/api-reference/introduction
+https://platform.openai.com/docs/quickstart/build-your-application
+https://platform.openai.com/docs/guides/chat
+
+#pricing
+https://openai.com/pricing
+
+---
+Multiple models, each with different capabilities and price points. Prices are per 1,000 tokens. You can think of tokens as pieces of words, where 1,000 tokens is about 750 words. This paragraph is 35 tokens.
+
+---
+Model	        Usage
+gpt-3.5-turbo	$0.002 / 1K tokens
+
+---
+'model' => 'text-davinci-003',
+Davinci
+Most powerful
+$0.0200 / 1K tokens
+
+Fine-tuning models
+Model	Training	Usage
+Davinci	$0.0300 / 1K tokens	$0.1200 / 1K tokens
+
+--- 6 page novel resp
+OpenAI\Exceptions\ErrorException: This model&#039;s maximum context length is 4097 tokens, however you requested 8026 tokens (8010 in your prompt; 16 for the completion). Please reduce your prompt; or completion length. in file C:\Users\believe\Documents\GitHub\chatgpt\vendor\openai-php\client\src\Transporters\HttpTransporter.php on line 66
