@@ -2,14 +2,22 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use OpenAI\Laravel\Facades\OpenAI;
 use Spatie\PdfToText\Pdf;
 
 class ChatGPTController extends Controller
 {
      public function chatPDF()
-    {        
+    {
+        // $a =public_path();
+        // return $a; 
+        
+        // $pdf_string = Pdf::getText('novel.pdf');
+
+        // $text = (new Pdf(public_path()))
+        // ->setPdf('novel.pdf')
+        // ->text();
+        
         $pdf_string = "PERJUANGAN SANG ANAK DESA
         Aku seorang lelaki yang sudah dewasa, awal perjuanganku adalah ketika aku berpikir
         untuk melanjutkan pendidikanku di bangku SMA, kehidupan keluargaku sangat
@@ -132,8 +140,13 @@ class ChatGPTController extends Controller
         
         buat kesimpulan dari cerita diatas dalam bahasa indonesia';
 
-        $prompt = $pdf_string. "" . $command;
+        $prompt = $pdf_string . $command;
        
+        // $response = OpenAI::completions()->create([
+        //     'model' => 'text-davinci-003',
+        //     'prompt' => $prompt,
+        // ]);
+
         $response = OpenAI::chat()->create([
             'model' => 'gpt-3.5-turbo',
             'messages' => [
@@ -159,8 +172,12 @@ class ChatGPTController extends Controller
         
         // $response->toArray(); // ['id' => 'chatcmpl-6pMyfj1HF4QXnfvjtfzvufZSQq6Eq', ...]
 
-        $data = $response->toArray();
+        // $result = $response->toArray();
+        $result = $response['choices'][0]['message']['content'];
+        
+        // $result = $response['choices'][0]['text'];
+        // $result = $response->choices[0]->text;
 
-        return  $data;
+        return  $result;
     }
 }
