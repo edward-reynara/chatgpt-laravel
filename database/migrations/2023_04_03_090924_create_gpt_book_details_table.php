@@ -15,11 +15,12 @@ return new class extends Migration
             $table->bigIncrements('id')->unsigned();
             $table->unsignedBigInteger('gpt_book_id')->index();
             $table->integer('batch_no')->default(1);
-            $table->char('status', 20)->default('pending')->nullable()->comment('pending|success|failure')->index();
-            $table->longtext('content');
-            $table->longtext('command');
-            $table->longtext('result');
+            $table->char('status', 20)->default('pending')->comment('pending|success|failure')->index();
+            $table->longtext('content')->nullable();
+            $table->longtext('command')->nullable();
+            $table->longtext('result')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

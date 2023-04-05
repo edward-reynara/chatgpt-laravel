@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('edition', 10)->nullable();
             $table->string('publisher', 40)->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

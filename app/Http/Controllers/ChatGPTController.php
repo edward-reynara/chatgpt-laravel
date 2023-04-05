@@ -2,52 +2,21 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\gptBookJob;
+use App\Jobs\batchJob;
 use OpenAI\Laravel\Facades\OpenAI;
-use Smalot\PdfParser\Parser;
+use App\Models\GptBookDetail;
 
 class ChatGPTController extends Controller
 {
-     public function chatPDF()
+    public function chatPDF()
     {
+        $gptBookId = 4;
 
-        $pdfParser = new Parser();
-        $path = public_path();
-        $pdf = $pdfParser->parseFile($path. '/' . 'novel.pdf');
-        $pages = $pdf->getPages();
+        dispatch(new gptBookJob($gptBookId));
+        // dispatch(new batchJob($gptBookId, 1));
 
-        foreach($pages as $page) {
-            $pageText = $page->getText();
-        }
-
-        $pdf_string = $pdf->getText();
-
-        $command = "
-        
-        
-        buat kesimpulan dari cerita diatas dalam bahasa indonesia";
-
-        $prompt = $pdf_string . $command;
-
-        // $response = OpenAI::completions()->create([
-        //     'model' => 'text-davinci-003',
-        //     'prompt' => $prompt,
-        // ]);
-        
-        $response = OpenAI::chat()->create([
-            'model' => 'gpt-3.5-turbo',
-            'messages' => [
-                ['role' => 'user', 'content' => $prompt],
-                // ['role' => 'assistant', 'content' => $prompt2],
-                // ['role' => 'user', 'content' => $prompt3],
-            ],
-        ]);
-        
-        // $result = $response->toArray();
-        $result = $response['choices'][0]['message']['content'];
-        
-        // $result = $response['choices'][0]['text'];
-        // $result = $response->choices[0]->text;
-
-        return  $result;
+        return response()->json(['success' => true, 'message' => 'onprocess create summary pdf']);
     }
+
 }
